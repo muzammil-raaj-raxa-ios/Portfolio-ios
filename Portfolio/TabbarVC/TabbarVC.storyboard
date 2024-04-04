@@ -23,7 +23,6 @@
                     <connections>
                         <segue destination="Wzb-5t-Rb0" kind="relationship" relationship="viewControllers" id="eul-Zd-9xZ"/>
                         <segue destination="yRb-4C-Ku1" kind="relationship" relationship="viewControllers" id="NEj-G6-IDA"/>
-                        <segue destination="g3X-zn-V56" kind="relationship" relationship="viewControllers" id="zJc-nH-AZE"/>
                         <segue destination="kT0-gc-hFK" kind="relationship" relationship="viewControllers" id="weP-oY-fCv"/>
                     </connections>
                 </tabBarController>
@@ -157,22 +156,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2TB-xX-1Gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3076" y="-281"/>
-        </scene>
-        <!--About Me-->
-        <scene sceneID="rf1-RQ-nbB">
-            <objects>
-                <viewController id="g3X-zn-V56" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Uta-DH-7tW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Fes-yU-7tR"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="About Me" image="person" catalog="system" selectedImage="person.fill" id="Cn7-cl-Mi0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eUe-jv-tA6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2198" y="-281"/>
         </scene>
         <!--Contact-->
         <scene sceneID="Eyg-Bw-ZJA">
@@ -375,8 +358,6 @@
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="linkedin" width="240" height="240"/>
-        <image name="person" catalog="system" width="128" height="121"/>
-        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="phone" catalog="system" width="128" height="115"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
         <image name="raaj" width="1280" height="1042"/>
