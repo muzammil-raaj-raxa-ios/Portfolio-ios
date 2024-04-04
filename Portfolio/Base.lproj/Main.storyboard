@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n1j-kc-KEG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Portfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hDq-vx-GhB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raaj-logo" translatesAutoresizingMaskIntoConstraints="NO" id="5RY-Z1-KQ7">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="1pG-nI-qab"/>
+                                    <constraint firstAttribute="width" constant="200" id="yQT-a3-334"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Design Dreams, Shape Themes" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtT-c7-WsB">
+                                <rect key="frame" x="66.5" y="548" width="281.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zWw-Xq-Sp6"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VtT-c7-WsB" firstAttribute="centerX" secondItem="hDq-vx-GhB" secondAttribute="centerX" id="4sT-OG-XQA"/>
+                            <constraint firstItem="5RY-Z1-KQ7" firstAttribute="centerX" secondItem="hDq-vx-GhB" secondAttribute="centerX" id="Oex-Mg-XeJ"/>
+                            <constraint firstItem="VtT-c7-WsB" firstAttribute="top" secondItem="5RY-Z1-KQ7" secondAttribute="bottom" id="gPe-FU-uWp"/>
+                            <constraint firstItem="5RY-Z1-KQ7" firstAttribute="centerY" secondItem="hDq-vx-GhB" secondAttribute="centerY" id="nGH-V2-RR2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zvq-ej-RoR"/>
+                    <connections>
+                        <outlet property="sloganLabel" destination="VtT-c7-WsB" id="B3c-Yx-D36"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.71014492753636" y="-27.455357142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iLy-ON-Dj6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n1j-kc-KEG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c18-mt-4tN">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NW1-uA-BRb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ro-Ru-JTx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="-27.455357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="raaj-logo" width="341" height="341"/>
+    </resources>
+</document>
